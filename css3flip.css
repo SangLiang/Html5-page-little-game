@@ -1,0 +1,108 @@
+﻿body{
+text-align:center;
+}
+
+#game{
+background:#a46740;
+border:1px solid #666;
+width:600px;
+height:560px;
+margin:0 auto;
+display:-webkit-box;
+-webkit-box-pack:center;
+-webkit-box-align:center;
+}
+#cards {
+position:relative;
+width:500px;
+height:510px;
+box-align:center;
+}
+.card {
+-webkit-perspective:600;
+width:105px;
+height:150px;
+position:absolute;
+-moz-transition:all .3s;
+-webkit-transition:all .3s;
+transition:all .3s;
+}
+
+.face {
+width:100%;
+height:100%;
+position:absolute;
+-webkit-transition-property:opacity,transform,box-shadow;
+-webkit-transition-duration:.3s;
+-webkit-backface-visibility:hidden;
+}
+
+.front {
+background:#999 url(img/BeiMian.jpg) no-repeat; 
+z-index:10;
+}
+.back {
+/*background:url(img/8.jpg);*/
+-webkit-transform:rotate3d(0,1,0,-180deg);
+z-index:8;
+}
+.card:hover .face, .card-flipped .face{
+-webkit-box-shadow:0 0 10px #aaa;
+}
+.card-flipped .front {
+-webkit-transform:rotate3d(0,1,0,180deg);
+z-index:8;
+}
+.card-flipped .back {
+-webkit-transform:rotate3d(0,1,0,0deg);
+z-index:10;
+}
+
+.card-removed {
+opacity:0;
+}
+
+.cardJOR {background:url(img/1.jpg);}
+.cardJOB {background:url(img/2.jpg);}
+.cardTHR {background:url(img/3.jpg);}
+.cardFOU {background:url(img/4.jpg);}
+.cardFIV {background:url(img/5.jpg);}
+.cardSIX {background:url(img/6.jpg);}
+.cardSEV {background:url(img/7.jpg);}
+.cardEIG {background:url(img/8.jpg);}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
