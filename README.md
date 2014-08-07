@@ -1,7 +1,3 @@
 Html5-page-little-game
 ======================
-
-memory card small game
-
-
-Follow the study book to code
+简单的翻纸牌记忆类游戏，照着书上的代码敲的。
